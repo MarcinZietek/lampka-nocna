@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="1w.ebznh!wv{qdaUprg1">prawda</variable><variable id="p(g1R0*G4m=BMR0-+L@p">fałsz</variable></variables><block type="device_forever" id="0Uv^63m/-2ko)J5r4oac" x="25" y="-88"><statement name="HANDLER"><block type="controls_if" id="(CL;/4FwVJF|Ad.$i{sM"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="a~J73x$.IIyr_4];{x/L" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="x-E@mBLTds*N/`MZ#Oo@"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="LWx@Q+SuRZn87#w3I{i;" disabled-reasons="pxt_automatic_disabled"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="*=j;P!bTqVwk@m2s3IJX"></block></value><value name="B"><shadow type="math_number" id="`{xWF|KhyWTqj$(^9(Z_"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="Z~#3eq$;RTLID{)$+B]["><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="4}n!ojR#s]lilO,Z(Cw1"></block></statement></block></statement></block></xml>
